@@ -2,6 +2,8 @@
 
 ## Requirments
 - Flask
+- Optional SVDs matrices avaiable on https://drive.google.com/drive/folders/1__XxT9vUjYD5D41Vm-7rTCwX2PEZY9g_?usp=sharing, put them into flask-server folder.
+
 ## Usage
 1. Clone the repository to your local machine:
    ```bash
@@ -10,10 +12,14 @@
 2. 
    ```bash
    cd flask-server
-   python3 server.py k
+   python3 server.py
    ```
-   where k is optional and its can be one of {50,100,200}, its size of SVD approximation of matrix A. For no arguments, search engine will for without SVD approximation.
-3. 
+   ### Optionally
+   You can download SVDs matrices, and run server with one of the avaiable SVDs approximation sizes (50,100,200,1000).
+   ```bash
+   python3 server.py 50
+   ```
+4. 
    ```bash
    cd ..
    cd client
