@@ -1,0 +1,59 @@
+/* Stylowanie ogólne dla całego kontenera */
+.SearchInput {
+    width: 100%;
+    max-width: 600px; /* Maksymalna szerokość kontenera */
+    margin: 20px auto; /* Centrowanie i odstęp */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtelne cieniowanie */
+    border-radius: 8px; /* Zaokrąglone rogi */
+    overflow: hidden; /* Ukrycie nadmiarowych elementów */
+    display: flex; /* Umożliwienie flex layout */
+    justify-content: space-between; /* Rozmieszczenie elementów */
+    align-items: center; /* Centrowanie elementów pionowo */
+}
+
+/* Stylowanie pola tekstowego */
+.SearchInput input[type="text"] {
+    flex-grow: 1; /* Element zajmie dostępną przestrzeń */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Stylowanie przycisku */
+.SearchInput button {
+    padding: 10px 20px; /* Odpowiednia padding */
+    border: none; /* Brak obramowania */
+    background-color: #007BFF; /* Niebieski kolor tła */
+    color: white; /* Biały tekst */
+    border-radius: 0 8px 8px 0; /* Zaokrąglone rogi po prawej stronie */
+    cursor: pointer; /* Kursor wskazujący */
+}
+
+/* Efekty dla przycisku przy hover */
+.SearchInput button:hover {
+    background-color: #0056b3; /* Ciemniejszy niebieski kolor tła */
+}
+
+/* Placeholder style */
+.SearchInput input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+/* Efekt hover i focus dla pola tekstowego */
+.SearchInput input:hover,
+.SearchInput input:focus {
+    background-color: #f9f9f9;
+}
+.centered-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Aby wyśrodkować pionowo na całej wysokości widoku */
+    font-size: 20px; /* Większa czcionka dla lepszej czytelności */
+    color: #555; /* Subtelny kolor tekstu */
+    font-family: Arial, sans-serif; /* Czysta, nowoczesna czcionka */
+}

@@ -1,0 +1,11 @@
+.WestCoast{
+    display:flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+}
+.EastCoast{
+    display:flex;
+    align-items: center;
+    width: 20%;
+}

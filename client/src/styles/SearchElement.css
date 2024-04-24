@@ -1,0 +1,51 @@
+.SearchContainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
+.WestCoast{
+    display:flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+}
+.EastCoast{
+    display:flex;
+    align-items: center;
+    width: 20%;
+}
+
+/* Stylowanie kontenera głównego */
+.SearchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f9f9f9; /* Jasne tło dla lepszej widoczności */
+    border-radius: 5px; /* Delikatne zaokrąglenie rogow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtelny cień dla głębi */
+
+}
+/* Stylowanie dla linków */
+.WestCoast a {
+    color: #006666; /* Ciemny turkusowy kolor linków */
+    text-decoration: none; /* Brak podkreślenia */
+    font-weight: bold; /* Pogrubienie tekstu */
+    font-size: 16px;
+}
+
+.WestCoast a:hover {
+    text-decoration: underline; /* Podkreślenie przy najechaniu */
+    color: #004444; /* Ciemniejszy odcień turkusowego */
+}
+
+/* Stylowanie dla opisów dokładności */
+.EastCoast {
+    font-size: 16px;
+    color: #333; /* Ciemnoszary tekst */
+    padding: 0 15px; /* Padding po bokach dla lepszego rozgraniczenia */
+}
