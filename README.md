@@ -6,6 +6,7 @@
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/mateuszkochelski/SearchEngine.git
+   cd SearchEngine
 2. 
    ```bash
    cd flask-server
